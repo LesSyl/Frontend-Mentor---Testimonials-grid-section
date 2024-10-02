@@ -1,4 +1,16 @@
-// <style>
-// .attribution { font-size: 11px; text-align: center; }
-// .attribution a { color: hsl(228, 45%, 44%); }
-// </style>
+@use 'colors' as *;
+.footer {
+	.attribution {
+		padding: 2em;
+		font-family: var(--medium-font);
+		font-size: 0.8rem;
+		text-align: center;
+        color: $bg-walters;
+		&__link {
+			font-family: var(--semiBold-font);
+            color: $bg-abrams;
+			text-decoration: none;
+			cursor: pointer;
+		}
+	}
+}
