@@ -1,16 +1,15 @@
 @use 'colors' as *;
-.footer {
-	.attribution {
-		padding: 2em;
-		font-family: var(--medium-font);
-		font-size: 0.8rem;
-		text-align: center;
-        color: $bg-walters;
-		&__link {
-			font-family: var(--semiBold-font);
-            color: $bg-abrams;
-			text-decoration: none;
-			cursor: pointer;
-		}
+
+.attribution {
+	padding: 2em;
+	font-family: var(--medium-font);
+	font-size: 0.8rem;
+	color: $bg-walters;
+	&__link {
+		font-family: var(--semiBold-font);
+		color: $bg-abrams;
+		text-decoration: none;
+		cursor: pointer;
 	}
 }
+
